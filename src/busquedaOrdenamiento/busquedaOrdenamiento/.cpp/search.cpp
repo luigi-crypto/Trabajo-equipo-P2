@@ -3,20 +3,15 @@
 
 using namespace std;
 
-int busquedaSecuencial(int arreglo[], int n, int valor, bool verbose)
+int busquedaSecuencial(const int* arr, int n, int valor, bool verbose)
 {
-    // 0/ Recorre todo el arreglo comparando elemento por elemento
-    for (int i = 0; i < n; i++)
-    {
-        if (verbose)
-            cout << "[Secuencial] i=" << i << " comparo " << arreglo[i] << " con " << valor << "\n";
-
-        if (arreglo[i] == valor)
-            return i; // 0/ encontrado
+    // tu implementación aquí (no debe modificar arr[])
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == valor) return i;  // lectura solo, no modifica
     }
-
-    return -1; // 0/ no encontrado
+    return -1;
 }
+
 
 int busquedaBinaria(int arreglo[], int n, int valor, bool verbose)
 {

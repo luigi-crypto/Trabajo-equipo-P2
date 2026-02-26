@@ -24,7 +24,13 @@
     <ClInclude Include=".h\sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include=".h\view.h">
+    <ClInclude Include=".h\benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".h\generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".h\menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,7 +47,13 @@
     <ClCompile Include=".cpp\Sort.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include=".cpp\view.cpp">
+    <ClCompile Include=".cpp\menu.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".cpp\generator.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".cpp\benchmark.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,17 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include=".h\benchmark.h" />
+    <ClInclude Include=".h\generator.h" />
+    <ClInclude Include=".h\menu.h" />
     <ClInclude Include=".h\randomgen.h" />
     <ClInclude Include=".h\search.h" />
     <ClInclude Include=".h\sort.h" />
-    <ClInclude Include=".h\view.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include=".cpp\benchmark.cpp" />
+    <ClCompile Include=".cpp\generator.cpp" />
     <ClCompile Include=".cpp\main.cpp" />
+    <ClCompile Include=".cpp\menu.cpp" />
     <ClCompile Include=".cpp\randomgen.cpp" />
     <ClCompile Include=".cpp\search.cpp" />
     <ClCompile Include=".cpp\Sort.cpp" />
-    <ClCompile Include=".cpp\view.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
