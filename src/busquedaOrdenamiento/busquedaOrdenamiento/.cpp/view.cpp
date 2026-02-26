@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "view.h"
+#include "../.h/view.h"
 
 void mostrarMenu()
 {

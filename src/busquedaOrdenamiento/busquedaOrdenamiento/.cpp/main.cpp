@@ -83,9 +83,10 @@
 #include <limits>
 using namespace std;
 
-#include "search.h"
-#include "sort.h"
-#include "view.h"
+
+#include "../.h/search.h"
+#include "../.h/sort.h"
+#include "../.h/view.h"
 
 using Clock = std::chrono::high_resolution_clock;
 

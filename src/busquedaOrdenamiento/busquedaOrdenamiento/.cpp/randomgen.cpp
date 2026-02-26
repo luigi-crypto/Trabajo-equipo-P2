@@ -1,4 +1,4 @@
-#include "randomgen.h"
+#include "../.h/randomgen.h"
 #include <iostream>
 #include <algorithm>
 #include <limits>

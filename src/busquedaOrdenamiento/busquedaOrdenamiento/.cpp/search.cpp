@@ -1,4 +1,4 @@
-#include "search.h"
+#include "../.h/search.h"
 #include <iostream>
 
 using namespace std;
